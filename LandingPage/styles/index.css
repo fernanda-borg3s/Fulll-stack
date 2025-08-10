@@ -6,3 +6,5 @@
 @import url(hero.css);
 @import url(section.css);
 @import url(about.css);
+@import url(cards.css);
+@import url(features.css) (width >= 80em); /* add a regra que o features so será chamado se a tela for maior que 80em [vai funcionar apenas no desktop]*/
