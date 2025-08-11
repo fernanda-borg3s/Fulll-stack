@@ -10,3 +10,4 @@
 @import url(features.css) (width >= 80em); /* add a regra que o features so será chamado se a tela for maior que 80em [vai funcionar apenas no desktop]*/
 @import url(pricing.css);
 @import url(download.css);
+@import url(footer.css);
