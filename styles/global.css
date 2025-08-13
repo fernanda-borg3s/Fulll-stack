@@ -1,0 +1,40 @@
+*::before,
+*::after {
+    box-sizing: border-box;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --font-family: "Poppins", sans-serif;
+    --font-description: "Preahvihear", sans-serif;
+    --bg-color: #11071f;
+    --detail-color: #1A0B2E;
+    --text-color-primary: #fff;
+    --text-color-secondary: #9857D3;
+    --fs-base: 0.625rem;   /*18px*/
+    --fs-sm: 1rem; /* 16px */
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: var(--bg-color);
+    color: var(--text-color-primary);
+    font-family: var(--font-description);
+}
+a{
+    text-decoration: none;
+    color:var(--text-color-primary);
+}
+
+/* Rectangle 983 */
+
+
+
+/* background: linear-gradient(95.56deg, #130428 0.58%, #251043 16.32%, #38126D 29.33%, #261045 45.66%, #190634 54.44%);
+box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.12);
+border-radius: 15px; */
