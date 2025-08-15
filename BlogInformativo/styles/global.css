@@ -1,0 +1,128 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ :root{
+    --backgound-default: #f5f4f0;
+    --border-primary: #d9d9d9;
+    --text-primary: #1b1b1b;
+    --text-secondary:#333333;
+    --text-tertiary: #696969;
+    --text-headline: #E1624f; 
+
+    --accent-blue:#0c51a7;
+    --accent-orange:#e95e10;
+    --accent-pink: #E5245e; 
+    --accent-purple: #591b98;
+
+    --font-family: "Open Sans", sans-serif;
+    
+ }
+body{
+    background-color: var(--backgound-default);
+    font-family: var(--font-family);
+}
+ #container-section{
+    max-width: 1280px;
+    padding: 32px;
+    margin-inline: auto;
+   
+
+ }
+ span.headline{
+    color: var(--text-headline);
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+
+ }
+h1{
+    color: var(--text-primary);
+    font-size: 36px;
+    font-weight: bold;
+}
+h2{
+    color: var(--text-primary);
+    font-size: 32px;
+    font-weight: bold;
+}
+h3{
+    color: var(--text-primary);
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+p{
+    color: var(--text-secondary);
+    font-size: 16px ;
+}
+p.subtitle{
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+img{
+    border-radius: 28px;
+
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    & img{
+        margin-block: 20px;
+    }
+}
+#section-dois{
+    & div.text{
+        margin-block: 64px;
+    }
+   
+}
+div.card {
+  margin-block: 60px;
+    & img{
+
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    }
+   
+    & .recomendacao{
+        margin-block: 20px;
+        font-weight: bold;
+
+    }
+    & li{
+    margin-left: 30px;
+    color: var(--accent-blue);
+    font-weight: 400;
+    font-size: 16px;
+   
+}
+ & .last{
+        & li:nth-child(1){
+            color: var(--accent-purple);
+        }
+        & li:nth-child(2){
+            color: var(--accent-pink);
+        }
+        & li:nth-child(3){
+            color: var(--accent-orange);
+        }
+    }
+
+}
+
+div.footer{
+    margin-block: 64px;
+    & p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    }
+ 
+
+}
