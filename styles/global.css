@@ -31,10 +31,8 @@ a{
     color:var(--text-color-primary);
 }
 
-/* Rectangle 983 */
-
-
-
-/* background: linear-gradient(95.56deg, #130428 0.58%, #251043 16.32%, #38126D 29.33%, #261045 45.66%, #190634 54.44%);
-box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.12);
-border-radius: 15px; */
+@media (width <= 80em){
+    .display-none{
+        display: none;
+    }
+}

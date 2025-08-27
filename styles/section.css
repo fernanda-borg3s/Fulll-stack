@@ -122,6 +122,7 @@ section#landpage{
             padding: 1.5rem 2rem;
             max-width: 100%;
             width: 35rem;
+            margin-block: 1rem;
             &  .icon-wrapper {
                 position: relative;
                 flex-shrink: 0;

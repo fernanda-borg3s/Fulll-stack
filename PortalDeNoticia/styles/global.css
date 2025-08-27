@@ -57,6 +57,27 @@ main{
         "weekly weekly"
         "ai aside";
 }
+/* Responsividade para tablets */
+ @media (width <= 60em) {
+  main {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "featured"
+      "weekly"
+      "ai"
+      "aside";
+  }
+} 
+
+/*
+@media (width <= 50em) {
+  main {
+    row-gap: 40px;
+    column-gap: 16px;
+    padding-inline: 16px;
+  }
+} */
+
 .content-tag{
     display: inline-block;
     padding: 4px 8px;
